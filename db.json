@@ -7,28 +7,22 @@
       "reminder": true
     },
     {
-      "text": "die",
-      "day": "today",
-      "reminder": true,
+      "text": "DCISM Meeting",
+      "day": "October 31 at 10:00 AM",
+      "reminder": false,
       "id": "HL_Irez"
     },
     {
-      "text": "eat ",
-      "day": "Monday",
-      "reminder": "false",
+      "text": "Wash the car",
+      "day": "Tomorrow",
+      "reminder": true,
       "id": "BO2-2bj"
     },
     {
-      "text": "code",
-      "day": "secret",
+      "text": "Practice coding",
+      "day": "Saturday",
       "reminder": true,
       "id": "mnyo5Os"
-    },
-    {
-      "text": "vhv",
-      "day": "hehe",
-      "reminder": false,
-      "id": "JQ9La-H"
     }
   ]
 }
