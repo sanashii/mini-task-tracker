@@ -16,7 +16,7 @@ export default function TaskTracker() { // * implements SPA routing via About
         left: '10px',  
     };
 
-    const location = useLocation()
+  const location = useLocation()
   const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] =useState([])
 

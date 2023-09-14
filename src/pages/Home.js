@@ -1,23 +1,25 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import MainHeader from '../components/MainHeader'
-import Forms from './Forms'
-import '../Home.css'; 
+import MainLayout from '../layouts/MainLayout';
+import MainHeader from '../components/MainHeader'// Import the MainLayout
+import '../Home.css';
 
-const Home = () => {
+function Home() {
   return (
-    <div className="home-container">
+    <MainLayout>
+      <div className="home-container">
       <MainHeader />
-      <Link to="/TaskTracker" className="link-container task-tracker">
-        <div className="background-image task-tracker"></div>
-        <span className="link-text">View Task Tracker</span>
-      </Link>
-      <Link to="/Forms" className="link-container forms">
-        <div className="background-image forms"></div>
-        <span className="link-text">View Forms</span>
-      </Link>
-    </div>
+        <Link to="/TaskTracker" className="link-container task-tracker">
+          <div className="background-image task-tracker"></div>
+          <span className="link-text">Mini Task Tracker</span>
+        </Link>
+        <Link to="/Forms" className="link-container forms">
+          <div className="background-image forms"></div>
+          <span className="link-text">Forms</span>
+        </Link>
+      </div>
+    </MainLayout>
   );
 }
-export default Home
+
+export default Home;

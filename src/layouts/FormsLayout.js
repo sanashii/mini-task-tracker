@@ -1,13 +1,19 @@
-import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import '../Forms.css';
+import { Link } from 'react-router-dom';
 
 function FormsLayout({ children }) {
+  const goBackLinkStyle = {
+        position: 'absolute',  
+        top: '10px',  
+        left: '10px',  
+    };
+
   return (
     <div>
-      <Header />
-      <aside>{children}</aside>
-      <Footer />
+      <Link to='/' style={goBackLinkStyle}>
+          Back to Home
+        </Link>
+      {children}
     </div>
   );
 }
