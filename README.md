@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-### `npm server`
+### `npm run server`
 This will start the JSON Server in order for you to be able to use and modify the existing data through the application.
 
 ### `npm start`
