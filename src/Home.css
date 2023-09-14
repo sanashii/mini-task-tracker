@@ -1,0 +1,54 @@
+/* CSS */
+
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.link-container {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link-container.task-tracker {
+  background-image: url('./assets/sanapredebut.jpg');
+}
+
+.link-container.forms {
+  background-image: url('./assets/chaepredebut.jpg');
+}
+
+.link-container.task-tracker:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url('./assets/sana.jpg');
+}
+
+.link-container.forms:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url('./assets/chae.jpg');
+}
+
+.link-container .background-image {
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-container .link-text {
+  font-size: 18px;
+}

@@ -29,6 +29,12 @@
       "day": "Tomorrow",
       "reminder": true,
       "id": "T5PmivT"
+    },
+    {
+      "text": "Die",
+      "day": "Tomorrow",
+      "reminder": false,
+      "id": "wXQQfgp"
     }
   ]
 }
